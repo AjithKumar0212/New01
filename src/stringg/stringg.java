@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	String s1=new String("selenium");
 	System.out.println(s==s1);
 	System.out.println(s.equals(s1));
-	s1.replace("e","#");
+	s1.replace("S","#");
 	System.out.println(s1);
 	System.out.println(s.hashCode());
 	System.out.println(s1.hashCode());
